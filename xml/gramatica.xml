@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<duelo>
+    <movimiento>
+        <si>
+            <condicion>hechizo_entrante == verdadero</condicion>
+            <entonces>
+                <hechizo nombre="Protego" tipo="defensa" />
+            </entonces>
+        </si>
+    </movimiento>
+
+    <movimiento>
+        <si>
+            <condicion>oponente_tiene_varita == falso</condicion>
+            <entonces>
+                <hechizo nombre="Stupefy" tipo="ataque" />
+                <hechizo nombre="Expelliarmus" tipo="ataque" />
+            </entonces>
+        </si>
+    </movimiento>
+
+    <movimiento>
+        <hechizo nombre="Flipendo" tipo="ataque" />
+    </movimiento>
+</duelo>

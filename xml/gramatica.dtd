@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT duelo (movimiento+)>
+<!ELEMENT movimiento (hechizo | si)>
+
+<!ELEMENT hechizo EMPTY>
+<!ATTLIST hechizo 
+    nombre CDATA #REQUIRED
+    tipo (ataque | defensa | utilidad) #REQUIRED>
+
+<!ELEMENT si (condicion, entonces)>
+<!ELEMENT condicion (#PCDATA)>
+<!ELEMENT entonces (hechizo+)>
