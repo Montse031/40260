@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE direccion SYSTEM "">
+<direccion>
+    <mombrecompleto>
+        <nombre>Mon</nombre>
+        <apellidos>R M</apellidos>
+    </nombrecompleto>
+    <correo>mon@uv.mx</correo>
+    <telefono>1323131</telefono>
+    <cumple>
+        <dia>24</dia>
+        <mes>09</mes>
+        <anio>2005</anio> 
+    </cumple>
+</direccion>
